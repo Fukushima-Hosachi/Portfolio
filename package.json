@@ -1,6 +1,6 @@
 {
+  "homepage": "https://Fukushima-Hosachi.github.io/test/",
   "name": "my-app",
-  "homepage": "https://Fukushima-Hosachi/react-test/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,11 +21,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
-    "rm": "rm -rf docs",
-    "mv": "mv build docs",
-    "git": "git add . && git commit && git push origin master",
-    "deploy": "npm run rm && npm run build && npm run mv && npm run git",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
