@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import images01 from '../pic/images01.jpg'
-import images02 from '../pic/images02.jpg'
+import images01 from '../pic/02/01.png'
+import images02 from '../pic/04/04.jpg'
+import images03 from '../pic/01/01.jpg'
 
 function CarouselFadeExample() {
   return (
@@ -12,8 +13,8 @@ function CarouselFadeExample() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>ポートフォリオサイトへようこそ!!</h3>
+          <p>Welcome to my portfolio site</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -24,21 +25,21 @@ function CarouselFadeExample() {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>上部のバーからメニューの選択ができます</h3>
+          <p>You can select the menu from top var</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          src={images03}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>ごゆっくりどうぞ</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Please enjoy
           </p>
         </Carousel.Caption>
       </Carousel.Item>

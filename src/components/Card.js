@@ -23,10 +23,10 @@ function Card() {
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>旅館の一室</MDBCardTitle>
             <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
+              自然の中にある旅館の一室をイメージして作りました。<br></br>
+              自然な光が入り込むようにマテリアルとライティングを工夫しました。
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
